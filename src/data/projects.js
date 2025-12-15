@@ -2,11 +2,11 @@ const projects = [
     {
       id: 'todo-list',
       name: 'Todo List',
-      description: 'A React web app that allows users to add, edit, and delete tasks, making task management simple and intuitive. Features a clean, responsive design that works seamlessly across all devices.',
+      description: 'A React web app that allows users to add, edit, and delete tasks, making task management simple and intuitive. Users can mark a task as completed or still open. Features a clean, responsive design that works seamlessly across all devices.',
       tech: ['React', 'HTML', 'CSS'],
-      image: '/todoList.png',
-      liveUrl: 'https://reactjs-todos-tc.netlify.app',
-      repoUrl: 'https://github.com/trevcruz182/reactjs-todolist'
+      image: '/todoApp.png',
+      liveUrl: 'https://todo-app-tc.netlify.app/',
+      repoUrl: 'https://github.com/trevcruz182/todo-app'
     },
     {
       id: 'apod',
