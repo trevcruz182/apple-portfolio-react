@@ -3,7 +3,7 @@ const projects = [
       id: 'todo-list',
       name: 'Todo List',
       description: 'A React web app that allows users to add, edit, and delete tasks, making task management simple and intuitive. Users can mark a task as completed or still open. Features a clean, responsive design that works seamlessly across all devices.',
-      tech: ['React', 'HTML', 'CSS'],
+      tech: ['React', 'HTML', 'CSS', 'LocalStorage'],
       image: '/todoApp.png',
       liveUrl: 'https://todo-app-tc.netlify.app/',
       repoUrl: 'https://github.com/trevcruz182/todo-app'
@@ -25,6 +25,15 @@ const projects = [
       image: '/swoleyFit.png',
       liveUrl: 'https://swoley-fit-tc.netlify.app',
       repoUrl: 'https://github.com/trevcruz182/swoley-fit'
+    },
+    {
+      id: 'pokedex',
+      name: 'Pokedex Web App',
+      description: 'A modern, interactive Pokédex built with the PokéAPI, featuring the original 151 Pokémon. Users can browse and explore detailed Pokémon data through a responsive, user-friendly interface. The project highlights strong frontend fundamentals including API consumption, Local Storage, dynamic rendering, and thoughtful UI/UX design, with more functionality planned as the app evolves.',
+      tech: ['React', 'LocalStorage', 'Tailwind CSS', 'API Handling', 'Responsive Design'],
+      image: '/pokedex.png',
+      liveUrl: 'https://pokedex-tc.netlify.app',
+      repoUrl: 'https://github.com/trevcruz182/pokedex'
     }
   ]
 

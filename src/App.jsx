@@ -17,7 +17,10 @@ export default function App() {
       <main className="space-y-32">
         <Spotlight />
         {projects.map((p, i) => (
-          <ProjectShowcase key={p.id} project={p} reversed={i % 2 === 1} />
+          <>
+            <ProjectShowcase key={p.id} project={p} reversed={i % 2 === 1} />
+            <hr style={{color: 'rgba(52, 50, 49, 0.1)', width: '85%', marginLeft: '9%', display: 'flex', alignItems: 'center'}} />
+          </>
         ))}
         <ProjectsGrid projects={projects} />
         <TechShowcase />
